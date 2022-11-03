@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Brain</title>
+    <script src="//unpkg.com/brain.js" defer></script>
+    <script src="script.js" defer></script>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      #color {
+        margin-top: 50px;
+        width: 200px;
+        height: 200px;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+        border-radius: 5px;
+      }
+      .white {
+        color: white;
+      }
+      .btns {
+        text-align: center;
+        margin-top: 20px;
+      }
+      #white-button {
+        padding: 10px 20px;
+        background-color: #fff;
+        border: 2px solid black;
+        color: black;
+        border-radius: 3px;
+      }
+      #black-button {
+        padding: 10px 20px;
+        background-color: #fff;
+        border: 2px solid black;
+        color: black;
+        border-radius: 3px;
+      }
+      #print-button {
+        padding: 10px 20px;
+        background-color: #fff;
+        border: 2px solid black;
+        color: black;
+        border-radius: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Train Font Color Based Off Background Color</h1>
+    <div id="color">
+      <div class="white">White text</div>
+      <div>Black Text</div>
+      <div id="guess">Guess Text</div>
+    </div>
+    <div class="btns">
+      <button id="white-button">White</button>
+      <button id="black-button">Black</button>
+      <button id="print-button">Print</button>
+    </div>
+  </body>
+</html>
